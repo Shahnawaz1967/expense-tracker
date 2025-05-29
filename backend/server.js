@@ -12,22 +12,9 @@ connectDB()
 const app = express()
 
 // Middleware
-const allowedOrigins = [
-  "http://localhost:5173", // your local dev frontend
-  "https://incomparable-meerkat-a4c006.netlify.app", // your Netlify deployed frontend URL
-]
-
 app.use(
   cors({
-    origin: function (origin, callback) {
-      // allow requests with no origin like Postman or curl
-      if (!origin) return callback(null, true)
-      if (allowedOrigins.indexOf(origin) === -1) {
-        const msg = `The CORS policy for this site does not allow access from the origin: ${origin}`
-        return callback(new Error(msg), false)
-      }
-      return callback(null, true)
-    },
+    origin: process.env.CLIENT_URL || "http://localhost:5173",
     credentials: true,
   }),
 )
