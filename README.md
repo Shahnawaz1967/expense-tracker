@@ -66,57 +66,7 @@ Framer Motion is a production-ready motion library for React that makes it easy 
 - **React Toastify** - Notifications
 - **Axios** - HTTP client
 
-## 📁 Project Structure
 
-\`\`\`
-expense-tracker-mern/
-├── backend/
-│   ├── config/
-│   │   └── db.js
-│   ├── controllers/
-│   │   ├── authController.js
-│   │   └── expenseController.js
-│   ├── middleware/
-│   │   └── auth.js
-│   ├── models/
-│   │   ├── User.js
-│   │   └── Expense.js
-│   ├── routes/
-│   │   ├── auth.js
-│   │   ├── expenses.js
-│   │   └── user.js
-│   ├── .env
-│   ├── package.json
-│   └── server.js
-├── frontend/
-│   ├── src/
-│   │   ├── components/
-│   │   │   ├── ui/
-│   │   │   │   └── MotionWrapper.jsx
-│   │   │   ├── Layout.jsx
-│   │   │   └── LoadingSpinner.jsx
-│   │   ├── contexts/
-│   │   │   ├── AuthContext.jsx
-│   │   │   ├── ExpenseContext.jsx
-│   │   │   └── ThemeContext.jsx
-│   │   ├── pages/
-│   │   │   ├── Login.jsx
-│   │   │   ├── Register.jsx
-│   │   │   ├── Dashboard.jsx
-│   │   │   ├── Expenses.jsx
-│   │   │   ├── Analytics.jsx
-│   │   │   └── Profile.jsx
-│   │   ├── utils/
-│   │   │   └── api.js
-│   │   ├── App.jsx
-│   │   ├── main.jsx
-│   │   └── index.css
-│   ├── .env
-│   ├── package.json
-│   ├── tailwind.config.js
-│   └── vite.config.js
-└── README.md
-\`\`\`
 
 ## 🚀 Quick Start
 
@@ -216,20 +166,6 @@ vercel
    VITE_GOOGLE_CLIENT_ID=your_google_client_id
    \`\`\`
 
-### Alternative: Deploy Backend on Railway
-
-1. **Install Railway CLI:**
-\`\`\`bash
-npm install -g @railway/cli
-\`\`\`
-
-2. **Deploy:**
-\`\`\`bash
-cd backend
-railway login
-railway init
-railway up
-\`\`\`
 
 ## 🔧 Configuration
 
@@ -254,42 +190,6 @@ railway up
    - `https://your-domain.vercel.app` (production)
 6. Copy Client ID to both backend and frontend `.env` files
 
-## 🎨 Customization
-
-### Adding New Animations
-
-1. **Create new variants in MotionWrapper.jsx:**
-\`\`\`jsx
-export const customAnimation = {
-  initial: { opacity: 0, scale: 0.5 },
-  animate: { opacity: 1, scale: 1 },
-  exit: { opacity: 0, scale: 0.5 }
-}
-\`\`\`
-
-2. **Use in components:**
-\`\`\`jsx
-<MotionDiv variant={customAnimation}>
-  <YourComponent />
-</MotionDiv>
-\`\`\`
-
-### Modifying Theme Colors
-
-Update `tailwind.config.js`:
-\`\`\`js
-theme: {
-  extend: {
-    colors: {
-      primary: {
-        50: '#your-color-50',
-        // ... add your color palette
-        900: '#your-color-900',
-      }
-    }
-  }
-}
-\`\`\`
 
 ## 📱 Features Showcase
 
@@ -336,8 +236,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 📞 Support
 
 If you have any questions or need help, please open an issue or contact:
-- Email: your-email@example.com
-- GitHub: [@yourusername](https://github.com/yourusername)
+- Email: heyshah24@gmail.com
+- GitHub: [https://github.com/Shahnawaz1967](https://incomparable-meerkat-a4c006.netlify.app/login)
 
 ---
 
