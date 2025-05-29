@@ -1,10 +1,46 @@
-# 💰 Expense Tracker - MERN Stack with Framer Motion
+#  Expense Tracker - MERN Stack with Framer Motion
 
 A comprehensive expense tracking web application built with the MERN stack featuring beautiful animations, JWT authentication, Google OAuth, real-time analytics, and a responsive design.
 
-## 🚀 Features
 
-### 🔐 Authentication & Security
+##Images
+
+![tracker-expense](https://github.com/user-attachments/assets/f7b549cd-d4cc-4a53-9966-512856abde61)
+
+
+##  Features
+
+User Authentication (Login and Registration)
+
+Secure login and signup with JWT tokens
+
+Password hashing and validation for security
+
+Image Upload with Cloudinary
+
+Upload and manage expense receipt images
+
+Cloud storage for scalable and reliable image handling
+
+Interactive Expense Charts and Statistics
+
+Visualize expenses by category and time periods
+
+Use charts for better spending insights
+
+Full CRUD Expense Management
+
+Add, edit, and delete expense records
+
+Store details like amount, category, date, and notes
+
+Personalized User Profiles
+
+Save user preferences and avatars
+
+Customized experience based on user data
+
+###  Authentication & Security
 - JWT-based authentication with secure token management
 - Google OAuth 2.0 integration
 - Password hashing with bcryptjs
@@ -18,14 +54,14 @@ A comprehensive expense tracking web application built with the MERN stack featu
 - Advanced filtering and search
 - Pagination for large datasets
 
-### 📊 Analytics & Insights
+###  Analytics & Insights
 - Interactive charts using Recharts
 - Category-wise spending breakdown (Pie charts)
 - Monthly spending trends (Line charts)
 - Expense statistics and summaries
 - Date range filtering
 
-### 🎨 User Experience
+### User Experience
 - **Framer Motion Animations**: Smooth page transitions, hover effects, and micro-interactions
 - Fully responsive design with Tailwind CSS
 - Dark/Light theme toggle
@@ -237,7 +273,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 If you have any questions or need help, please open an issue or contact:
 - Email: heyshah24@gmail.com
-- GitHub: [https://github.com/Shahnawaz1967](https://incomparable-meerkat-a4c006.netlify.app/login)
+- GitHub: [(https://github.com/Shahnawaz1967/expense-tracker.git)]
 
 ---
 
