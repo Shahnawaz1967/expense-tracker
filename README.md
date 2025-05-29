@@ -3,7 +3,7 @@
 A comprehensive expense tracking web application built with the MERN stack featuring beautiful animations, JWT authentication, Google OAuth, real-time analytics, and a responsive design.
 
 
-##Images
+## Images
 
 ![tracker-expense](https://github.com/user-attachments/assets/f7b549cd-d4cc-4a53-9966-512856abde61)
 
@@ -104,7 +104,7 @@ Framer Motion is a production-ready motion library for React that makes it easy 
 
 
 
-## 🚀 Quick Start
+##  Quick Start
 
 ### Prerequisites
 - Node.js (v16 or higher)
@@ -115,7 +115,7 @@ Framer Motion is a production-ready motion library for React that makes it easy 
 
 1. **Clone the repository**
 \`\`\`bash
-git clone https://github.com/yourusername/expense-tracker-mern.git
+git clone https: https://github.com/Shahnawaz1967/expense-tracker.git
 cd expense-tracker-mern
 \`\`\`
 
@@ -165,7 +165,7 @@ npm run dev
 
 The backend will run on `http://localhost:5000` and frontend on `http://localhost:5173`.
 
-## 🌐 Production Deployment
+##  Production Deployment
 
 ### Backend Deployment on Render
 
@@ -227,9 +227,9 @@ vercel
 6. Copy Client ID to both backend and frontend `.env` files
 
 
-## 📱 Features Showcase
+##  Features Showcase
 
-### 🎭 Animation Features
+###  Animation Features
 - **Page Transitions**: Smooth slide animations between pages
 - **Stagger Effects**: Elements animate in sequence
 - **Hover Interactions**: Buttons and cards respond to mouse hover
@@ -237,19 +237,19 @@ vercel
 - **Form Feedback**: Inputs scale and highlight on focus
 - **Micro-interactions**: Small delightful animations throughout
 
-### 📊 Dashboard Features
+###  Dashboard Features
 - **Real-time Statistics**: Animated counters and progress bars
 - **Interactive Charts**: Hover effects on chart elements
 - **Responsive Design**: Works perfectly on all device sizes
 - **Dark Mode**: Smooth theme transitions
 
-### 🔐 Authentication Features
+###  Authentication Features
 - **Password Strength Indicator**: Real-time visual feedback
 - **Form Validation**: Animated error messages
 - **Social Login**: Google OAuth integration
 - **Remember Me**: Persistent login sessions
 
-## 🤝 Contributing
+##  Contributing
 
 1. Fork the repository
 2. Create feature branch (`git checkout -b feature/AmazingFeature`)
@@ -261,7 +261,7 @@ vercel
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 🙏 Acknowledgments
+##  Acknowledgments
 
 - [Framer Motion](https://www.framer.com/motion/) - Animation library
 - [React](https://reactjs.org/) - UI Library
@@ -279,7 +279,7 @@ If you have any questions or need help, please open an issue or contact:
 
 ⭐ **Star this repository if you found it helpful!**
 
-## 🎯 Learning Outcomes
+##  Learning Outcomes
 
 By studying this project, you'll learn:
 
